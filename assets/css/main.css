@@ -569,7 +569,7 @@ section {
 }
 
 .get-started .content p {
-  font-size: 14px;
+  font-size: 20px;
 }
 
 .get-started .php-email-form {
@@ -1930,7 +1930,7 @@ section {
 
 .hero .info p {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 18px;
+  font-size: 25px;
 }
 
 .hero .info .btn-get-started {
