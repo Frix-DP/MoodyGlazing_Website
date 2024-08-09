@@ -277,7 +277,7 @@ section {
   font-family: var(--font-primary);
 }
 
-@media (max-width: 575px) {
+@media (max-width: 768px) {
   .header .logo h1 {
     font-size: 15px;
   }
@@ -1941,6 +1941,7 @@ section {
 @media (max-width: 768px) {
   .hero .info h2 {
     font-size: 36px;
+    margin-bottom: 15px;
   }
 }
 
@@ -2027,7 +2028,7 @@ section {
 .client-logo {
   position: absolute;
   z-index: 1;
-  bottom: 10%; /* Position at the bottom 10% */
+  bottom: 1%; /* Position at the bottom 10% */
   left: 0;
   width: 100%;
   text-align: center; /* Optional, for logo alignment */
