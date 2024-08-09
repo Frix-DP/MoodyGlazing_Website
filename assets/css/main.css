@@ -270,7 +270,7 @@ section {
 }
 
 .header .logo h1 {
-  font-size: 24px;
+  font-size: 32px;
   font-weight: 700;
   color: #fff;
   margin-bottom: 0;
@@ -570,6 +570,15 @@ section {
 
 .get-started .content p {
   font-size: 20px;
+}
+
+@media (max-width: 768px) {
+  .get-started .content h3 {
+    font-size: 20px;
+  }
+  .get-started .content p {
+    font-size: 16px;
+  }
 }
 
 .get-started .php-email-form {
@@ -1930,7 +1939,12 @@ section {
 
 .hero .info p {
   color: rgba(255, 255, 255, 0.8);
-  font-size: 25px;
+  font-size: 40px;
+}
+@media (max-width: 768px) {
+  .hero .info p {
+    font-size: 20px;
+  }
 }
 
 .hero .info .btn-get-started {
@@ -2000,6 +2014,42 @@ section {
 .hero .carousel-control-prev:hover,
 .hero .carousel-control-next:hover {
   opacity: 0.9;
+}
+
+/*Optional CLient logos here*/
+.client-logo {
+  position: absolute;
+  z-index: 1;
+  bottom: 10%; /* Position at the bottom 10% */
+  left: 0;
+  width: 100%;
+  text-align: center; /* Optional, for logo alignment */
+}
+.logo-container {
+  display: flex;
+  justify-content: space-evenly; /* Distribute logos evenly */
+  align-items: center; /* Center logos vertically */
+  margin: 0 auto; /* Center the container horizontally */
+  background-color: rgba(128, 128, 128, 0.5); /* Semi-transparent white background */
+  padding: 20px; /* Add some padding to create space around logos */
+}
+/* Smaller logo size for phones */
+@media (max-width: 1024px) {
+  .logo-container {
+    padding: 10px; /* Smaller width for phones */
+  }
+}
+
+.logo-container img {
+  width: 100px; /* Set logo width */
+  height: auto; /* Maintain aspect ratio */
+  margin: 0 10px; /* Add some margin between logos */
+}
+/* Smaller logo size for phones */
+@media (max-width: 1024px) {
+  .logo-container img {
+    width: 25px; /* Smaller width for phones */
+  }
 }
 
 /*--------------------------------------------------------------
