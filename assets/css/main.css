@@ -291,7 +291,7 @@ section {
 /*--------------------------------------------------------------
 # Desktop Navigation
 --------------------------------------------------------------*/
-@media (min-width: 1280px) {
+@media (min-width: 720px) {
   .navbar {
     padding: 0;
   }
@@ -420,7 +420,7 @@ section {
   }
 }
 
-@media (min-width: 1280px) and (max-width: 1366px) {
+@media (min-width: 720px) and (max-width: 1366px) {
   .navbar .dropdown .dropdown ul {
     left: -90%;
   }
@@ -430,7 +430,7 @@ section {
   }
 }
 
-@media (min-width: 1280px) {
+@media (min-width: 720px) {
 
   .mobile-nav-show,
   .mobile-nav-hide {
@@ -441,7 +441,7 @@ section {
 /*--------------------------------------------------------------
 # Mobile Navigation
 --------------------------------------------------------------*/
-@media (max-width: 1279px) {
+@media (max-width: 719px) {
   .navbar {
     position: fixed;
     top: 0;
@@ -1923,6 +1923,7 @@ section {
   font-size: 56px;
   font-weight: 700;
   position: relative;
+  letter-spacing: 2px;
 }
 
 .hero .info h2:after {
